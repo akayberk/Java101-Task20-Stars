@@ -14,10 +14,10 @@ public class star {
             System.out.println(" ");
         }
         for (int i=0;i<=n;i++){
-            for (int j=n; j>(n-i);j--){
+            for (int j=n; j>(n-i-1);j--){
                 System.out.print(" ");
             }
-            for (int k=1; k<=(2*(n-i)-1);k++){
+            for (int k=1; k<=(2*(n-i)-3);k++){
                 System.out.print("*");
             }
             System.out.println(" ");
